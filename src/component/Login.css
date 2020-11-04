@@ -1,4 +1,4 @@
-.football {
+.football-pic {
     background-image: url(../images/image_1.png);
     position: absolute;
     top: 0;
@@ -95,7 +95,7 @@ input:focus::placeholder {
     align-items: center;
 }
 
-button {
+.button {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     background-color: #EA3640;

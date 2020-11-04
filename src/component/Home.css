@@ -1,0 +1,15 @@
+.top-bar {
+    background-color: #32B265;
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+}
+
+.logo-pic {
+    background-image: url(../images/NFL-Logo.png);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Dropdown from 'react-dropdown';
-import HomeScreen from './Home';
+import { Link } from "react-router-dom";
 import 'react-dropdown/style.css';
 import './Login.css'
 
@@ -12,7 +12,7 @@ class Login extends React.Component {
     
     render() {
         return (
-            <div class="football">
+            <div class="football-pic">
                 <div class="green-overlay">
                     <h1>autoClips</h1>
                     <div class="form">
@@ -33,12 +33,13 @@ class Login extends React.Component {
                             placeholder=" Enter Password"
                         />
                         <div class="b">
-                            <button 
-                                type="button"
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location={HomeScreen};
-                                    }}>Log in</button>
+                            <Link to='/home'>
+                                <button 
+                                    class="button"
+                                    type="button">
+                                        Log in</button>
+                            </Link>
+                            
                         </div>
                     </div>
                 </div>

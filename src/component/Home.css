@@ -15,9 +15,11 @@
     height: 100px;
 }
 
-.team-box{
-   width:500px;
+.week-box{
+   text-align: center;
+   width:400px;
    height:100px;
-   border:1px solid #000;
-
-  }
+   border:5px solid #000;
+   margin: auto;
+}
+  

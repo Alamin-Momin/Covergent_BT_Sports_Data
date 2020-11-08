@@ -7,8 +7,11 @@ class Home extends React.Component {
         return (
             <div class="top-bar">
                  <div class="logo-pic"></div>
-                 <div class = "team-box"></div>
+                 <div class = "week-box"> 
+                    <text>"Week number here"</text>
+                </div>
             </div>
+
         )
     }
 }

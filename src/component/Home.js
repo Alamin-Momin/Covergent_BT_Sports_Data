@@ -8,7 +8,7 @@ class Home extends React.Component {
             <div class="top-bar">
                  <div class="logo-pic"></div>
                  <div class = "week-box"> 
-                    <text>"Week number here"</text>
+                    <text> &larr; Week 15 &rarr;</text>
                 </div>
             </div>
 

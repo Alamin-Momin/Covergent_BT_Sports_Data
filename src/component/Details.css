@@ -16,17 +16,21 @@
   font-family: "Josefin Sans", sans-serif;
   color: white;
   position: absolute;
-  top: 5px;
-  right: 5px;
+  display: flex;
+  top: 20px;
+  right: 15px;
 }
 
+.account span {
+    display: block;
+    margin-top: 3px;
+  }
+
 .profile-pic {
-  background-image: url(../images/Profile-Icon.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  float: right;
+  margin-top: 10px;
+  width: auto;
+  height: 40px;
 }
 
 .week {
@@ -42,13 +46,19 @@
 .team-1 {
   height: 35%;
   position: absolute;
-  left: 10%;
+  top: 23%;
+  left: 12%;
 }
 
 .team-1 p {
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   bottom: 0;
+}
+
+.team-1 img {
+    height: 50%;
+    width: auto;
 }
 
 #teams {
@@ -97,14 +107,20 @@
 
 .team-2 {
   position: absolute;
-  top: 30%;
-  right: 10%;
+  top: 28%;
+  right: 8%;
 }
 
 .team-2 p {
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   bottom: 0;
+}
+
+.team-2 img {
+    height: 50%;
+    width: auto;
+    margin-bottom: 3px;
 }
 
 .compile {
@@ -137,5 +153,26 @@
   text-transform: uppercase;
   font-weight: bold;
   position: absolute;
-  left: 10%;
+  overflow: scroll;
+  height: 300px;
+  width: 1200px;
+  margin-left: 10px;
+}
+
+.quarters p {
+    margin-left: 10%;
+}
+
+.q-table {
+    margin: 0 auto;
+    border-spacing: 10px;
+}
+
+.q-table td {
+    padding: 0 20px;
+}
+
+.q-table img{
+    width: 40px;
+    height: auto;
 }

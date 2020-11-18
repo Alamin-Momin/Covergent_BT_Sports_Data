@@ -39,12 +39,6 @@ class Login extends React.Component {
                                     type="button">
                                         Log in</button>
                             </Link>
-                            <Link to='/dashboard'>
-                                <button 
-                                    class="button"
-                                    type="button">
-                                        Detail</button>
-                            </Link>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,6 @@ class Home extends React.Component {
                     <div class="game-box"><text> 35 - 17</text><div class="inside"> HOU BAL</div> </div>
                     <div class="game-box"><text> 35 - 17</text><div class="inside"> HOU BAL</div> </div>
                     <div class="game-box"><text> 35 - 17</text><div class="inside"> HOU BAL</div> </div>
-
                 </div>
             </div>
 

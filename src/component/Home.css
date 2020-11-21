@@ -43,6 +43,19 @@
     flex-direction: column;
     position: relative;
 }
+
+.inside{
+    text-align: center;
+    width:250px;
+    height:150px;
+    border:5px white;
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 /* 
  .bottom {
     margin-top: auto;
@@ -54,7 +67,7 @@
     grid-template-columns: 300px 300px 300px;
     width: 70%;
     margin: auto;
- }    
+ }   
 
 h1 {
     /* font-family: 'Josefin Sans', sans-serif; */

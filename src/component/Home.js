@@ -11,12 +11,13 @@ class Home extends React.Component {
                     <text> &larr; Week 15 &rarr;</text>
                 </div>
                 <div class="grid-container">
-                    <div class="game-box"><text> game 15</text> </div>
-                    <div class="game-box"> <text> game 15</text></div> 
-                    <div class="game-box"> <text> game 15</text></div> 
-                    <div class="game-box"> <text> game 15</text></div> 
-                    <div class="game-box"> <text> game 15</text></div> 
-                    <div class="game-box"> <text> game 15</text></div>
+                    <div class="game-box"><text> 35 - 17</text><div class="inside"> HOU BAL</div> </div>
+                    <div class="game-box"><text> 35 - 17</text><div class="inside"> HOU BAL</div> </div>
+                    <div class="game-box"><text> 35 - 17</text><div class="inside"> HOU BAL</div> </div>
+                    <div class="game-box"><text> 35 - 17</text><div class="inside"> HOU BAL</div> </div>
+                    <div class="game-box"><text> 35 - 17</text><div class="inside"> HOU BAL</div> </div>
+                    <div class="game-box"><text> 35 - 17</text><div class="inside"> HOU BAL</div> </div>
+
                 </div>
             </div>
 

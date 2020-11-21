@@ -42,13 +42,12 @@ class Details extends React.Component {
         <div class="top-bar">
           <div class="logo-pic" />
           <div class="account">
-            <p>Username</p>
-            <p>Affliation</p>
-            <div class="profile-pic" />
+            <p>Username <span>Affiliation</span></p>
+            <img class="profile-pic" src={'../images/Profile-Icon.png'} alt=''/>
           </div>
         </div>
         <div class="team-1">
-          <img src={require("../images/dallas-cowboys.png")} alt=''/>
+          <img src={'../images/dallas-cowboys.png'} alt=''/>
           <p>Dallas Cowboys</p>
         </div>
         <div class="week">
@@ -61,7 +60,7 @@ class Details extends React.Component {
           </table>
         </div>
         <div class="team-2">
-          <img src={require("../images/seattle-seahawks.png")} alt=''/>
+          <img src={'../images/seattle-seahawks.png'} alt=''/>
           <p>Seattle Seahawks</p>
         </div>
         <div class="compile">
@@ -73,7 +72,38 @@ class Details extends React.Component {
         </div>
         <div class="quarters">
           <p>Quarter 1</p>
-            
+            <table class="q-table">
+                <tr>
+                    <td>12:56</td>
+                    <td>Andy Dalton (QB) throws 35 yd. pass to Amari Cooper for a TD</td>
+                    <td><img src={'../images/play-button.png'} alt=''/></td>
+                    <td>Export</td>
+                </tr>
+                <tr>
+                    <td>10:15</td>
+                    <td>Richard Sherman (CB) interceprs 35 yd. pass from Andy Dalton (QB)</td>
+                    <td><img src={'../images/play-button.png'} alt=''/></td>
+                    <td>Export</td>
+                </tr>
+                <tr>
+                    <td>9:32</td>
+                    <td>Russell Wilson (QB) 27 yd run on 4th down conversion</td>
+                    <td><img src={'../images/play-button.png'} alt=''/></td>
+                    <td>Export</td>
+                </tr>
+                <tr>
+                    <td>5:31</td>
+                    <td>Russell Wilson (QB) sacked by Justin Houston (DE) for 11 yards</td>
+                    <td><img src={'../images/play-button.png'} alt=''/></td>
+                    <td>Export</td>
+                </tr>
+                <tr>
+                    <td>1:14</td>
+                    <td>Chris Carson (RB) 13 yd run for a TD</td>
+                    <td><img src={'../images/play-button.png'} alt=''/></td>
+                    <td>Export</td>
+                </tr>
+            </table>
           <p>Quarter 2</p>
           <p>Quarter 3</p>
           <p>Quarter 4</p>

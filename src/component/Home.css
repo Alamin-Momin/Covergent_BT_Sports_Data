@@ -55,6 +55,16 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    height: 50%;
+    width: auto;
+    margin-bottom: 3px;
+}
+
+.inside img {
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-bottom: 3px;
 }
 /* 
  .bottom {

@@ -48,6 +48,8 @@
   position: absolute;
   top: 23%;
   left: 12%;
+  text-align: center;
+  align-items: center;
 }
 
 .team-1 p {
@@ -106,9 +108,12 @@
 }
 
 .team-2 {
+  height: 35%;
   position: absolute;
-  top: 28%;
-  right: 8%;
+  top: 23%;
+  right: 12%;
+  width: 170px;
+  text-align: center;
 }
 
 .team-2 p {
@@ -120,7 +125,6 @@
 .team-2 img {
     height: 50%;
     width: auto;
-    margin-bottom: 3px;
 }
 
 .compile {
@@ -154,25 +158,73 @@
   font-weight: bold;
   position: absolute;
   overflow: scroll;
-  height: 300px;
+  height: 400px;
   width: 1200px;
   margin-left: 10px;
 }
 
 .quarters p {
-    margin-left: 10%;
+    margin-left: 23%;
 }
 
-.q-table {
-    margin: 0 auto;
+.q-table-1 {
+    margin: auto;
     border-spacing: 10px;
+    margin-left: 28%;
 }
 
-.q-table td {
+.q-table-1 td {
     padding: 0 20px;
 }
 
-.q-table img{
+.q-table-1 img{
     width: 40px;
     height: auto;
+}
+
+.q-table-2 {
+  margin: auto;
+  border-spacing: 10px;
+  margin-left: 28%;
+}
+
+.q-table-2 td {
+  padding: 0 19px;
+}
+
+.q-table-2 img{
+  width: 40px;
+  height: auto;
+}
+
+.q-table-3 {
+  margin: auto;
+  border-spacing: 10px;
+  margin-left: 28%;
+}
+
+.q-table-3 td {
+  padding: 0 20px;
+}
+
+.q-table-3 img{
+  width: 40px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.q-table-4 {
+  margin: auto;
+  border-spacing: 10px;
+  margin-left: 28%;
+}
+
+.q-table-4 td {
+  padding: 0 17px;
+}
+
+.q-table-4 img{
+  width: 40px;
+  height: auto;
+  margin-right: 8px;
 }

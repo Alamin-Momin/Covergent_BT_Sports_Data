@@ -7,8 +7,8 @@ class Details extends React.Component {
     super(props);
     this.state = {
       teams: [
-        { name: "DAL", q1: "14", q2: "3", q3: "10", q4: "10", tot: "37" },
-        { name: "SEA", q1: "7", q2: "0", q3: "7", q4: "7", tot: "21" },
+        { name: "KC", q1: "7", q2: "16", q3: "7", q4: "21", tot: "51" },
+        { name: "LAR", q1: "13", q2: "10", q3: "17", q4: "14", tot: "54" },
       ],
     };
   }
@@ -42,13 +42,19 @@ class Details extends React.Component {
         <div class="top-bar">
           <div class="logo-pic" />
           <div class="account">
-            <p>Username <span>Affiliation</span></p>
-            <img class="profile-pic" src={'../images/Profile-Icon.png'} alt=''/>
+            <p>
+              Username <span>Affiliation</span>
+            </p>
+            <img
+              class="profile-pic"
+              src={"../images/Profile-Icon.png"}
+              alt=""
+            />
           </div>
         </div>
         <div class="team-1">
-          <img src={'../images/dallas-cowboys.png'} alt=''/>
-          <p>Dallas Cowboys</p>
+          <img src={"../images/chiefs.png"} alt="" />
+          <p>Kansas City Chiefs</p>
         </div>
         <div class="week">
           <h2>Week 13 (11/15/2020)</h2>
@@ -60,11 +66,11 @@ class Details extends React.Component {
           </table>
         </div>
         <div class="team-2">
-          <img src={'../images/seattle-seahawks.png'} alt=''/>
-          <p>Seattle Seahawks</p>
+          <img src={"../images/lar.png"} alt="" />
+          <p>Los Angeles Rams</p>
         </div>
         <div class="compile">
-          <Link to="/">
+          <Link to="../videos/highlights.mp4">
             <button type="button">
               Compile <span>Highlights</span>
             </button>
@@ -72,41 +78,155 @@ class Details extends React.Component {
         </div>
         <div class="quarters">
           <p>Quarter 1</p>
-            <table class="q-table">
-                <tr>
-                    <td>12:56</td>
-                    <td>Andy Dalton (QB) throws 35 yd. pass to Amari Cooper for a TD</td>
-                    <td><img src={'../images/play-button.png'} alt=''/></td>
-                    <td>Export</td>
-                </tr>
-                <tr>
-                    <td>10:15</td>
-                    <td>Richard Sherman (CB) interceprs 35 yd. pass from Andy Dalton (QB)</td>
-                    <td><img src={'../images/play-button.png'} alt=''/></td>
-                    <td>Export</td>
-                </tr>
-                <tr>
-                    <td>9:32</td>
-                    <td>Russell Wilson (QB) 27 yd run on 4th down conversion</td>
-                    <td><img src={'../images/play-button.png'} alt=''/></td>
-                    <td>Export</td>
-                </tr>
-                <tr>
-                    <td>5:31</td>
-                    <td>Russell Wilson (QB) sacked by Justin Houston (DE) for 11 yards</td>
-                    <td><img src={'../images/play-button.png'} alt=''/></td>
-                    <td>Export</td>
-                </tr>
-                <tr>
-                    <td>1:14</td>
-                    <td>Chris Carson (RB) 13 yd run for a TD</td>
-                    <td><img src={'../images/play-button.png'} alt=''/></td>
-                    <td>Export</td>
-                </tr>
-            </table>
+          <table class="q-table-1">
+            <tr>
+              <td>12:00</td>
+              <td>Robert Woods (WR) 7 Yd pass from Jared Goff (QB)</td>
+              <td>
+              <Link to="../videos/touchdown.mp4">
+                <img src={"../images/play-button.png"} alt="" />
+              </Link>
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>5:35</td>
+              <td>Josh Reynolds (WR) 4 Yd pass from Jared Goff (QB)</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>3:25</td>
+              <td>Tyreek Hill (WR) 25 Yd pass from Patrick Mahomes (QB)</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+          </table>
           <p>Quarter 2</p>
+          <table class="q-table-2">
+            <tr>
+              <td>14:54</td>
+              <td>Greg Zuerlein (PK) 23 Yd Field Goal</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>8:04</td>
+              <td>Harrison Butker (PK) 21 Yd Field Goal</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>6:28</td>
+              <td>Kareem Hunt 21 (RB) Yd pass from Patrick Mahomes (QB)</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>1:50</td>
+              <td>Samson Ebukam (LB) 11 Yd Fumble Return</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>0:13</td>
+              <td>Chris Conley (WR) 8 Yd pass from Patrick Mahomes (QB)</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+          </table>
           <p>Quarter 3</p>
+          <table class="q-table-3">
+            <tr>
+              <td>10:52</td>
+              <td>Jared Goff (QB) 7 Yd Run</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>7:09</td>
+              <td>Travis Kelce (TE) 4 Yd pass from Patrick Mahomes (QB)</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>2:24</td>
+              <td>Greg Zuerlein (PK) 33 Yd Field Goal</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>2:14</td>
+              <td>Samson Ebukam (LB) 25 Yd Interception Return</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+          </table>
           <p>Quarter 4</p>
+          <table class="q-table-4">
+            <tr>
+              <td>12:04</td>
+              <td>Tyreek Hill (WR) 73 Yd pass from Patrick Mahomes (QB)</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>11:07</td>
+              <td>Allen Bailey (DE) 2 Yd Fumble Return</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>9:38</td>
+              <td>Gerald Everett (TE) 7 Yd pass from Jared Goff (QB)</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>2:47</td>
+              <td>Chris Conley (WR) 10 Yd pass from Patrick Mahomes (QB)</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+            <tr>
+              <td>1:49</td>
+              <td>Gerald Everett (TE) 40 Yd pass from Jared Goff (QB)</td>
+              <td>
+                <img src={"../images/play-button.png"} alt="" />
+              </td>
+              <td>Export</td>
+            </tr>
+          </table>
         </div>
       </>
     );
@@ -114,3 +234,4 @@ class Details extends React.Component {
 }
 
 export default Details;
+

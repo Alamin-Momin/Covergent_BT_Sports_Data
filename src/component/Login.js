@@ -5,7 +5,7 @@ import 'react-dropdown/style.css';
 import './Login.css'
 
 const options = [
-    'one', 'two', 'three'
+    'ESPN', 'CBS Sports', 'Longhorn Network'
 ];
 
 class Login extends React.Component {

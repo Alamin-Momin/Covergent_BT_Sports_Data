@@ -1,3 +1,7 @@
+# Front End of autoClips
+
+The website which teams or journalists would use to get a compilation of the most exciting plays in a NFL game. The games are first sorted by week #, then the user can click on a specific game to see the details.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
